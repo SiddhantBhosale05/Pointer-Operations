@@ -3,7 +3,7 @@ Experiment 10
 
 
 ## Aim 
-To study pointer operations
+To study Pointer Operations
 
 ## Theory
 <br>
