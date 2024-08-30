@@ -36,6 +36,25 @@ In C++, functions can receive parameters in different ways, influencing how the 
 
 
 ## Algorithms
+### Call by reference
+
+1. **Start**
+2. **Define Function `swap(int *x, int *y)`**
+   - **Input:** Pointers to two integers `x` and `y`
+   - **Output:** Swapped values of the integers pointed to by `x` and `y`
+   - **Steps:**
+     1. Make a temporary variable `temp`
+     2. Assign the value pointed to by `x` to `temp` (`temp = *x`)
+     3. Assign the value pointed to by `y` to the location pointed to by `x` (`*x = *y`)
+     4. Assign the value of `temp` to the location pointed to by `y` (`*y = temp`)
+3. **In `main` Function**
+   - Define integers `a` and `b` with 5 and 2.
+   - Call `swap(&a, &b)` function
+   - Print the value of `a`
+   - Print the value of `b`
+4. **End**
+
+
 ### Call by value
 
 1. **Start**
@@ -54,23 +73,6 @@ In C++, functions can receive parameters in different ways, influencing how the 
    - Print the value of `b`
 4. **End**
 
-### Call by reference
-
-1. **Start**
-2. **Define Function `swap(int *x, int *y)`**
-   - **Input:** Pointers to two integers `x` and `y`
-   - **Output:** Swapped values of the integers pointed to by `x` and `y`
-   - **Steps:**
-     1. Make a temporary variable `temp`
-     2. Assign the value pointed to by `x` to `temp` (`temp = *x`)
-     3. Assign the value pointed to by `y` to the location pointed to by `x` (`*x = *y`)
-     4. Assign the value of `temp` to the location pointed to by `y` (`*y = temp`)
-3. **In `main` Function**
-   1. Define integers `a` and `b` with 5 and 2.
-   2. Call `swap(&a, &b)` function
-   3. Print the value of `a`
-   4. Print the value of `b`
-4. **End**
 
 
 
