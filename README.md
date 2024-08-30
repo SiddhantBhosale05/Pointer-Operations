@@ -72,9 +72,3 @@ In C++, functions can receive parameters in different ways, influencing how the 
    - Print the value of `a`
    - Print the value of `b`
 4. **End**
-
-
-
-
-## Conclusion
-We learnt about the Operations in Pointers
