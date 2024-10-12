@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Pointer Operations to Call by Value
+//Aim:Implementation of Pointer Operations to Call by Value
 
 #include<iostream>
 using namespace std;
